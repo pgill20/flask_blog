@@ -1,4 +1,4 @@
-from flaskblog import app
+from api import app
 
 if __name__ == '__main__':
     app.jinja_env.auto_reload = True
